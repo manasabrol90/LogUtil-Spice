@@ -2,8 +2,8 @@ package com.id.spice.logutil;
 
 public class ApiConstants {
 
-        public static String CORE_HOST_URL = "https://devpp.spicelabs.in/";
-//    public static String CORE_HOST_URL = "https://stgpp.spicelabs.in/pg/";
+//        public static String CORE_HOST_URL = "https://devpp.spicelabs.in/";
+    public static String CORE_HOST_URL = "https://stgpp.spicelabs.in/pg/";
 
     public static final String MSISDN = "msisdn";
     public static final String HK_USER_ID = "userId";

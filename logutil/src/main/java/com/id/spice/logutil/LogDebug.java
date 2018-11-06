@@ -12,7 +12,9 @@ public class LogDebug {
         Log.d(TAG, message);
     }
 
-    public static void startFlow(Activity activity) {
+    public static void startFlow(Activity activity, String userId) {
+        Intent intent = new Intent(activity, MyCardActivity.class);
+        intent.putExtra("userId", userId);
         activity.startActivity(new Intent(activity, MyCardActivity.class));
     }
 
