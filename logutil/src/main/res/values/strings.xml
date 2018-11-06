@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">LogUtil</string>
+    <string name="app_name">LogUtilExample</string>
+    <string name="internet_check">No Internet Connection!</string>
+    <string name="no_response">Unable to process request. Please try again.</string>
+    <string name="error_message_time_out">Unable to process request due to communication failure.</string>
+    <string name="error_message_auth_fail">Authentication failure while communicating with server.</string>
+    <string name="error_message_server_error">Unable to process request temporarily. Please try after sometime.</string>
+    <string name="error_message_network_error">Unable to process request due to very poor or limited connectivity.</string>
+    <string name="error_message_parse_error">Bad or incomplete response from server. Please try again.</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="proxy_check_message">Sorry, we are unable to run this application as device is on proxy server. Please remove proxy from your network.</string>
+    <string name="rooted_device_check_message">This device is rooted. You can\'t use this app.</string>
+    <string name="title_activity_my_test">MyTestActivity</string>
+
 </resources>
